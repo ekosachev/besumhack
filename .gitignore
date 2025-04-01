@@ -6,3 +6,4 @@ notmeat/settings.py
 db.sqlite3
 dish_images
 notmeat_app/__pycache__
+notmeat_app/migrations
