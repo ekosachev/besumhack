@@ -1,3 +1,8 @@
 .venv
 notmeat/__pycache__
 notmeat/settings.py
+.env
+db.sqlite3
+dish_images
+notmeat_app/__pycache__
+notmeat_app/migrations
