@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Ura Bum Bum";
-  src: url("../../../dist/fonts/UraBumBumSP.otf");
+  src: url("../fonts/UraBumBumSP.otf");
 }
 @font-face {
   font-family: "Amatic SC";
-  src: url("../../../dist/fonts/AmaticSC-Regular.ttf");
+  src: url("../fonts/AmaticSC-Regular.ttf");
 }
 @font-face {
   font-family: "Amatic SC";
-  src: url("../../../dist/fonts/AmaticSC-Bold.ttf");
+  src: url("../fonts/AmaticSC-Bold.ttf");
   font-weight: bold;
 }
 * {
@@ -17,7 +17,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("../../../dist/images/bg-image.png");
+  background-image: url("../images/bg-image.png");
   background-position: center;
   background-size: cover;
 }
@@ -41,7 +41,7 @@ body {
 .header .container .logo a {
   text-decoration: none;
   color: #E8D5D5;
-  font-family: Amatic SC, sans-serif;
+  font-family: 'Amatic SC', sans-serif;
   font-size: 80px;
   font-weight: bold;
   line-height: normal;
@@ -97,4 +97,43 @@ body {
   font-family: 'Amatic SC', sans-serif;
   font-size: 64px;
   color: #E8D5D5;
+}
+.about {
+  padding-top: 50px;
+}
+.about .container .main-about-item .about-main-item-text .text-title {
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 110%;
+  color: #E8D5D5;
+}
+.about .container .main-about-item .about-main-item-text .main-text-description {
+  width: 1196px;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 40px;
+  line-height: 110%;
+  color: #E8D5D5;
+}
+.about .container .about-item {
+  display: flex;
+  align-items: end;
+}
+.about .container .about-item .about-item-text .text-title {
+  width: 100%;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 110%;
+  color: #E8D5D5;
+}
+.about .container .about-item .about-item-text .text-description {
+  width: 885px;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 40px;
+  line-height: 110%;
+  color: #E8D5D5;
+}
+.about .container .about-item .about-item-text .text-description ul {
+  margin-left: 54px;
 }
