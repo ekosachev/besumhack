@@ -5,6 +5,7 @@
     <title>NE MYASO</title>
 <!--    {% load static %}-->
 <!--    <link rel="stylesheet" href="{% static 'styles/style.css' %}">-->
+    <link rel="stylesheet" href="../../dist/styles/animate.min.css">
     <link rel="stylesheet" href="../../dist/styles/style.css">
 </head>
 <body>
@@ -35,10 +36,10 @@
     <div class="container">
         <div class="bg-text">Na strazhe zhivotnix</div>
         <div class="main-text">
-            <div class="text-title">Ne MYASO</div>
+            <span class="text-title"></span>
             <div class="text-description">restoran dlya tex, kto lyubit vkus, a ne yarliki</div>
         </div>
-        <div class="main-image">
+        <div class="main-image, wow animate__backInUp">
 <!--          <img src="{% static 'images/wards-animals.png' %}" alt="animals">-->
           <img src="../../dist/images/wards-animals.png" alt="animals">
         </div>
@@ -141,6 +142,8 @@
 </section>
 
 <!--    <script src="{% static 'scripts/script.js' %}"></script>-->
+    <script src="../../dist/scripts/typed.umd.js"></script>
+    <script src="../../dist/scripts/wow.js"></script>
     <script src="../../dist/scripts/script.js"></script>
 </body>
 </html>
