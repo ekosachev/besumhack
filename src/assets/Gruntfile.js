@@ -21,20 +21,18 @@ module.exports = function (grunt) {
                 }
             }
         },
-        clean: ['../../dist/styles/style.css'],
         watch: {
             options: {
                 livereload: true,
             },
             css: {
                 files: ['css/*.less'],
-                tasks: ['less', 'cssmin', 'clean'],
+                tasks: ['less', 'cssmin'],
             },
         },
     });
 
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-watch');
 };

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>NE MYASO</title>
-<!--    {% load static %}-->
-<!--    <link rel="stylesheet" href="{% static 'styles/style.css' %}">-->
-    <link rel="stylesheet" href="../../dist/styles/style.css">
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'styles/style.css' %}">
+<!--    <link rel="stylesheet" href="../../dist/styles/style.css">-->
 </head>
 <body>
 <header class="header">
@@ -39,18 +39,19 @@
             <div class="text-description">restoran dlya tex, kto lyubit vkus, a ne yarliki</div>
         </div>
         <div class="main-image">
-<!--          <img src="{% static 'images/wards-animals.png' %}" alt="animals">-->
-          <img src="../../dist/images/wards-animals.png" alt="animals">
+                      <img src="{% static 'images/wards-animals.png' %}" alt="animals">
+<!--            <img src="../../dist/images/wards-animals.png" alt="animals">-->
         </div>
     </div>
 </section>
 
 <section class="about">
     <div class="container">
-        <div class="about-item">
-            <div class="about-item-text">
+        <div class="main-about-item">
+            <div class="about-main-item-text">
                 <div class="text-title">O nas | Restoran dostavki ne myaso</div>
-                <div class="text-description">Dobro pozhalovat' v Ne Myaso — zavedenie, gde kulinariya prevrashchaetsya
+                <div class="main-text-description">Dobro pozhalovat' v Ne Myaso — zavedenie, gde kulinariya
+                    prevrashchaetsya
                     v izyskannuyu igru, a kazhdiy priem pishchi stanovitsya malen'kim spektaklem dlya vashih vkusovyh
                     retseptorov. My sozdali prostranstvo, gde formal'noe sootvetstvie kontseptsii i real'noe soderzhanie
                     blyud nahodyatsya v izyashchnom, pochti filosofskom protivorechii.
@@ -68,7 +69,8 @@
                 </div>
             </div>
             <div class="about-item-image">
-                <img src="" alt="">
+                                <img src="{% static 'images/about_us_image/image1.png' %}" alt="">
+<!--                <img src="../../dist/images/about_us_image/image1.png" alt="">-->
             </div>
         </div>
         <div class="about-item">
@@ -77,19 +79,23 @@
                 <div class="text-description">
                     <ul>
                         <li>
-                            "100% rastitel'noe" — eto nasha oficial'naya poziciya. A chto skryvaetsya za etim opredeleniem — priyatnaya zagadka dlya gurmanov
+                            "100% rastitel'noe" — eto nasha oficial'naya poziciya. A chto skryvaetsya za etim
+                            opredeleniem — priyatnaya zagadka dlya gurmanov
                         </li>
                         <li>
-                            My ispol'zuem tol'ko "tekhnicheski razreshennye" ingredienty, no nashe masterstvo prevrashchaet ih v nechto sovershenno inoe
+                            My ispol'zuem tol'ko "tekhnicheski razreshennye" ingredienty, no nashe masterstvo
+                            prevrashchaet ih v nechto sovershenno inoe
                         </li>
                         <li>
-                            V nashih receptah net ni gramma formal'nogo myasa — tol'ko iskusnye analogi, kotorye zastavyat vas peresmotret' svoi ubezhdeniya
+                            V nashih receptah net ni gramma formal'nogo myasa — tol'ko iskusnye analogi, kotorye
+                            zastavyat vas peresmotret' svoi ubezhdeniya
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="about-item-image">
-                <img src="" alt="">
+                                <img src="{% static 'images/about_us_image/image2.png' %}" alt="">
+<!--                <img src="../../dist/images/about_us_image/image2.png" alt="">-->
             </div>
         </div>
         <div class="about-item">
@@ -101,12 +107,15 @@
                         </li>
                         <li>Tekstury, kotorye "sluchayno" povtoryayut myasnye prototipy do mel'chayshih nyuansov
                         </li>
-                        <li>Aromaty, vyzyvayushchie nostal'giyu po traditsionnoy kuhne, no pri etom formal'no sootvetstvuyushchie kontseptsii</li>
+                        <li>Aromaty, vyzyvayushchie nostal'giyu po traditsionnoy kuhne, no pri
+                            etom formal'no sootvetstvuyushchie kontseptsii
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="about-item-image">
-                <img src="" alt="">
+                                <img src="{% static 'images/about_us_image/image3.png' %}" alt="">
+<!--                <img src="../../dist/images/about_us_image/image3.png" alt="">-->
             </div>
         </div>
         <div class="about-item">
@@ -121,7 +130,8 @@
                 </div>
             </div>
             <div class="about-item-image">
-                <img src="" alt="">
+                                <img src="{% static 'images/about_us_image/image4.png' %}" alt="">
+<!--                <img src="../../dist/images/about_us_image/image4.png" alt="">-->
             </div>
         </div>
         <div class="about-item">
@@ -129,18 +139,59 @@
                 <div class="text-title">Nashe kredo</div>
                 <div class="text-description">My ne obmanyvaem — my vdohnovlyaem. Ne narushaem pravila — interpretiruem
                     ih po-svoemu. Ne skryvaem pravdu — prosto pozvolyaem kazhdomu gostyu nayti svoyu.
-                    Prihodite i poprobuyte sami — skol'ko myasa v Ne Myaso"?
-                    Otvet mozhet vas udivit'...
+                    Prihodite i poprobuyte sami — skol'ko myasa v <span>Ne Myaso</span>"?
+                    <span>Otvet mozhet vas udivit'...</span>
                 </div>
             </div>
             <div class="about-item-image">
+                                <img src="{% static 'images/about_us_image/image5.png' %}" alt="">
+<!--                <img src="../../dist/images/about_us_image/image5.png" alt="">-->
+            </div>
+        </div>
+    </div>
+</section>
+<section class="menu">
+    <div class="dishes">
+        <div class="dishes-hot_dishes">
+            <div class="menu-item">
                 <img src="" alt="">
+                <div class="menu-item-description"></div>
+            </div>
+        </div>
+        <div class="dishes-soups">
+            <div class="menu-item">
+                <img src="" alt="">
+                <div class="menu-item-description"></div>
+            </div>
+        </div>
+        <div class="dishes-snacks">
+            <div class="menu-item">
+                <img src="" alt="">
+                <div class="menu-item-description"></div>
+            </div>
+        </div>
+        <div class="dishes-salads">
+            <div class="menu-item">
+                <img src="" alt="">
+                <div class="menu-item-description"></div>
+            </div>
+        </div>
+        <div class="dishes-strit_food">
+            <div class="menu-item">
+                <img src="" alt="">
+                <div class="menu-item-description"></div>
+            </div>
+        </div>
+        <div class="dishes-desserts">
+            <div class="menu-item">
+                <img src="" alt="">
+                <div class="menu-item-description"></div>
             </div>
         </div>
     </div>
 </section>
 
-<!--    <script src="{% static 'scripts/script.js' %}"></script>-->
-    <script src="../../dist/scripts/script.js"></script>
+    <script src="{% static 'scripts/script.js' %}"></script>
+<!--<script src="../../dist/scripts/script.js"></script>-->
 </body>
 </html>
