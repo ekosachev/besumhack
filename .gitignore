@@ -1,0 +1,3 @@
+.venv
+notmeat/__pycache__
+notmeat/settings.py
