@@ -17,7 +17,8 @@ class Dish(models.Model):
     )
     name = models.CharField(max_length=256)
     contents = models.CharField(max_length=1024)
-    mass = models.FloatField()
+
+    image = models.ImageField(upload_to="./dish_images")
 
 
 class Order(models.Model):
