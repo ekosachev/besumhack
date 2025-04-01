@@ -2,3 +2,7 @@
 notmeat/__pycache__
 notmeat/settings.py
 .idea
+.env
+db.sqlite3
+dish_images
+notmeat_app/__pycache__
