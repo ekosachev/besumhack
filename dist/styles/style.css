@@ -41,7 +41,11 @@ body {
 .header .container .logo a {
   text-decoration: none;
   color: #E8D5D5;
+<<<<<<< HEAD
   font-family: "Amatic SC", sans-serif;
+=======
+  font-family: 'Amatic SC', sans-serif;
+>>>>>>> da74cabcf7d7d19d3a714bd1edd351a99125e4c1
   font-size: 80px;
   font-weight: bold;
   line-height: normal;
