@@ -12,6 +12,10 @@ class DishCategory(models.Model):
 
 
 class Dish(models.Model):
+    category = models.ForeignKey(
+        DishCategory, on_delete=models.CASCADE, related_name="dishes"
+    )
+    name = models.CharField(max_length=256)
     contents = models.CharField(max_length=1024)
     mass = models.FloatField()
 
